@@ -90,8 +90,10 @@ li {
 }
 
 #home-wrapper {
-	text-align: left;
-	margin-left: 25px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+	text-align: center;
 }
 
 .assignment {
@@ -115,13 +117,13 @@ li {
 .project a {
 	font-size: 1.5rem;
 	color: white;
-	line-height: 1.5em;
+	line-height: 1.9em;
 }
 
 .assignment a:hover,
 .tutorials a:hover,
 .project a:hover {
-	font-size: 1.9rem;
+	border-bottom: 1px solid white;
 }
 
 /* Image gallery styles */
@@ -291,19 +293,3 @@ li {
 	height: auto;
 }
 
-/* Frames */
-
-.frame {
-	height: 600px;
-	width: 800px;
-	display: flex;
-	float: right;
-	position: absolute;
-	top: 150px;
-	right: 200px;
-}
-
-.linkFrame {
-	height: 100%;
-	width: 100%;
-}
