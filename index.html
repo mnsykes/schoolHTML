@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Sykes | Enter</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Code from https://www.w3schools.com/howto/howto_js_typewriter.asp -->
+    <script>
+      var i = 0;
+      var txt = " Matthew Sykes Homepage  ";
+      var speed = 80;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("typewriter").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="home-area">
+      <h1 id="typewriter">
+        <script>
+          typeWriter();
+        </script>
+      </h1>
+    </div>
+    <div class="enter">
+      <a href="home.html">Enter</a>
+    </div>
+  </body>
+</html>
