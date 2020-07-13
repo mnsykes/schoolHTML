@@ -1,173 +1,30 @@
+/* global styles */
 * {
-	font: 15px/1.5 Montserrat;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
-header {
-	color: #333333;
-	padding-top: 30px;
-	height: 20%;
-	border-bottom: 2px solid #333;
-}
-
-header h2,
-header .highlight {
-	font-size: 3rem;
-}
-
-header li {
-	display: inline;
-	padding: 0 20px;
-}
-
-header a {
-	color: #333;
+a {
 	text-decoration: none;
-	text-transform: uppercase;
 }
 
-.nav-bar {
-	float: right;
-	margin-top: 10px;
+/* header and nav */
+header {
+	border: 1px solid black;
 }
 
-.nav-bar a {
-	justify-content: center;
+.navContainer {
+	border: 1px solid red;
 }
 
-header .highlight,
-#showcase .highlight {
-	color: orange;
-	font-weight: bold;
-}
-
-.current a {
-	color: orange;
-}
-
-header a:hover {
-	font-weight: bold;
-	border-bottom: 2px solid orange;
-}
-
-.container {
-	width: 100%;
-	margin: auto;
-	overflow: hidden;
-}
-
-#showcase {
-	text-align: center;
-	color: #333;
-}
-
-#showcase h1 {
-	margin-top: 20px;
-	font-size: 55px;
-	margin-bottom: 10px;
-}
-
-#showcase p {
-	font-size: 20px;
-}
-
-#newsletter {
-	padding: 15px;
-	color: #333;
-	background-color: orange;
-	opacity: 0.4;
-}
-
-#newsletter h1 {
-	float: left;
-}
-
-#newsletter form {
-	float: right;
-	margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-	padding: 4px;
-	height: 38px;
-	width: 250px;
-}
-
-.button_1 {
-	height: 38px;
-	background: #333;
-	border: 0;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: white;
-}
-
-#boxes {
-	margin-top: 30px;
-}
-
-.box-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 30px;
-}
-
-.box {
-	text-align: center;
-}
-
-.form {
-	box-sizing: border-box;
-	margin: auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	justify-content: space-around;
-	height: 500px;
-	width: 400px;
-	text-align: center;
-}
-
-.form h2 {
-	font-size: 2rem;
-	color: #333;
-	margin-bottom: 50px;
-}
-
-.form label {
-	font-size: 1.3rem;
-	font-weight: bold;
-	color: #333;
-}
-
-.form input {
-	font-size: 1.3rem;
-	width: 80%;
-	height: 40px;
-}
-
-footer {
-	width: 100%;
-	border-top: 3px solid #333;
-	height: auto;
-}
-
-footer img {
-	height: 80px;
-	width: auto;
-	float: right;
-	padding: 0px 25px;
-}
-
-.button {
-	background-color: orange;
-	margin-top: 25px;
-}
-
-@media (max-width: 550px) {
-	.box-container {
-		display: grid;
-		grid-template-columns: 1fr;
-	}
+/* hero section */
+.hero {
+	height: 100vh;
+	width: 100vh;
+	border: 1px solid green;
+	background-image: url("images/web_design.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }

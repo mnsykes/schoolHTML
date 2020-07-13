@@ -81,9 +81,9 @@ li {
 
 /* Home styles */
 
-.home-head {
+.home-head h1 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 5rem;
 	color: white;
 	font-weight: bold;
 	margin-bottom: 40px;
@@ -292,4 +292,3 @@ li {
 	width: 500px;
 	height: auto;
 }
-
