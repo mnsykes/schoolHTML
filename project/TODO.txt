@@ -1,0 +1,47 @@
+---HOME PAGE---
+
+Add:
+  1. Footer
+  2. League information
+  3. Twitter feed
+  4. More statistic categories
+  5. Add content below hero image
+  6. Additional links in Top Nav
+  7. 'Back to Top' links
+  8. Welcome message from the 'Commissioner'
+  9. League slogan on hero image
+
+Style:
+  1. Smooth scrolling
+  2. Style tables
+  3. Style newsletter button and input
+  4. Additional CSS styling
+  5. Responsiveness
+
+General:
+  1. CSS and HTML validation
+  2. Accessability
+  3. Meta tags
+  4. Add comments and attributions for images used
+
+---TEAM PAGES---
+
+Add:
+  1. Different player names
+  2. Images
+  3. Team specific content
+  4. Team contact information
+  5. Navigation links
+
+Style:
+  1. Style ticket order form
+  2. Make button to launch order form as a modal
+  3. Team specific color palettes
+  4. General CSS styling
+  5. Responsiveness
+
+General:
+  1. CSS and HTML validation
+  2. Accessability
+  3. Meta tags
+  4. Add comments and attributions for images used
